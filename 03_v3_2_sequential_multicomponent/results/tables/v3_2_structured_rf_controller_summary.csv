@@ -1,0 +1,16 @@
+metric,value
+zero_mean_final_quality,1.0514311644530259
+random_mean_final_quality,1.7942475532082258
+old_bo_mean_final_quality,1.1975804212792183
+structured_rf_mean_final_quality,0.21449795104827613
+structured_rf_win_vs_zero_percent,99.0
+structured_rf_win_vs_random_percent,100.0
+structured_rf_win_vs_old_bo_percent,99.0
+online_exact_best_hit_rate_percent,93.4
+online_top3_hit_rate_percent,100.0
+online_mean_regret,0.00232566717637488
+online_p95_regret,0.005403219571299818
+online_selected_beats_zero_rate_percent,91.8
+online_true_best_beats_zero_rate_percent,93.0
+mean_correction_utilization,0.11526075010464967
+near_limit_rate_percent,0.0

@@ -1,0 +1,11 @@
+metric,value
+zero_mean_final_quality,0.9909873424385588
+direct_greedy_mean_final_quality,0.22461575861250346
+direct_greedy_final_win_rate_vs_zero_percent,100.0
+mean_final_improvement_percent,71.83683836107268
+median_final_improvement_percent,77.89245914302589
+zero_p95_final_quality,1.6358378302927463
+direct_greedy_p95_final_quality,0.3634033704181964
+direct_greedy_mean_utilization,0.10583347950755478
+direct_greedy_near_limit_rate_percent,0.6666666666666667
+direct_greedy_do_nothing_rate_percent,6.666666666666667

@@ -1,0 +1,3 @@
+method,cases,final_mean_best_quality,final_median_best_quality,final_std_best_quality,final_worst_best_quality,final_best_best_quality,quality_improvement_vs_random_percent
+bayesian_optimization,30,1.2779151356531657,1.0229009125535002,0.6119206162971056,3.214268708784945,0.7600442084100257,17.871780822983325
+random_search,30,1.556000055107473,1.424260756612608,0.6331902629603083,3.394197372526299,0.853561323472678,0.0

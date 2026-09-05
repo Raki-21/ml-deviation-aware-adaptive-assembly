@@ -1,0 +1,8 @@
+metric,value
+mean_relative_improvement_percent,68.62374752804303
+median_relative_improvement_percent,74.4224823622935
+p05_relative_improvement_percent,27.35789305123192
+p95_relative_improvement_percent,90.48593923584188
+minimum_relative_improvement_percent,-3.2261205262236143
+maximum_relative_improvement_percent,98.9543281570054
+structured_win_rate_percent,99.33333333333333

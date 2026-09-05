@@ -1,0 +1,23 @@
+strategy,scenario_type,severity_level,total_cases,pass_recommended_count,pass_recommended_percent,manual_review_count,manual_review_percent,rework_required_count,rework_required_percent,out_of_correction_range_count,out_of_correction_range_percent,dominant_failure_metric,suggested_future_capability
+individual_adaptive_setting,bend_dominant,high,50,48,96.0,0,0.0,2,4.0,0,0.0,parallelism_error,add stronger angular or multi-point locator correction capability
+individual_adaptive_setting,bend_dominant,low,50,50,100.0,0,0.0,0,0.0,0,0.0,no_failure_detected,current correction capability sufficient for this group
+individual_adaptive_setting,bend_dominant,medium,50,48,96.0,0,0.0,2,4.0,0,0.0,parallelism_error,add stronger angular or multi-point locator correction capability
+individual_adaptive_setting,disturbed_batch,high,50,47,94.0,0,0.0,3,6.0,0,0.0,parallelism_error,add stronger angular or multi-point locator correction capability
+individual_adaptive_setting,fixture_drift,high,50,46,92.0,0,0.0,4,8.0,0,0.0,parallelism_error,add stronger angular or multi-point locator correction capability
+individual_adaptive_setting,fixture_drift,low,50,41,82.0,0,0.0,9,18.0,0,0.0,parallelism_error,add stronger angular or multi-point locator correction capability
+individual_adaptive_setting,fixture_drift,medium,50,48,96.0,0,0.0,2,4.0,0,0.0,parallelism_error,add stronger angular or multi-point locator correction capability
+individual_adaptive_setting,mixed,high,50,48,96.0,0,0.0,2,4.0,0,0.0,parallelism_error,add stronger angular or multi-point locator correction capability
+individual_adaptive_setting,mixed,low,50,49,98.0,0,0.0,1,2.0,0,0.0,parallelism_error,add stronger angular or multi-point locator correction capability
+individual_adaptive_setting,mixed,medium,50,46,92.0,0,0.0,4,8.0,0,0.0,parallelism_error,add stronger angular or multi-point locator correction capability
+individual_adaptive_setting,offset_dominant,high,50,48,96.0,0,0.0,2,4.0,0,0.0,parallelism_error,add stronger angular or multi-point locator correction capability
+individual_adaptive_setting,offset_dominant,low,50,50,100.0,0,0.0,0,0.0,0,0.0,no_failure_detected,current correction capability sufficient for this group
+individual_adaptive_setting,offset_dominant,medium,50,50,100.0,0,0.0,0,0.0,0,0.0,no_failure_detected,current correction capability sufficient for this group
+individual_adaptive_setting,tilt_dominant,high,50,49,98.0,0,0.0,1,2.0,0,0.0,parallelism_error,add stronger angular or multi-point locator correction capability
+individual_adaptive_setting,tilt_dominant,low,50,45,90.0,0,0.0,5,10.0,0,0.0,parallelism_error,add stronger angular or multi-point locator correction capability
+individual_adaptive_setting,tilt_dominant,medium,50,49,98.0,0,0.0,1,2.0,0,0.0,parallelism_error,add stronger angular or multi-point locator correction capability
+individual_adaptive_setting,twist_dominant,high,50,49,98.0,0,0.0,1,2.0,0,0.0,parallelism_error,add stronger angular or multi-point locator correction capability
+individual_adaptive_setting,twist_dominant,low,50,50,100.0,0,0.0,0,0.0,0,0.0,no_failure_detected,current correction capability sufficient for this group
+individual_adaptive_setting,twist_dominant,medium,50,47,94.0,0,0.0,3,6.0,0,0.0,parallelism_error,add stronger angular or multi-point locator correction capability
+individual_adaptive_setting,waviness_dominant,high,50,46,92.0,0,0.0,4,8.0,0,0.0,parallelism_error,add stronger angular or multi-point locator correction capability
+individual_adaptive_setting,waviness_dominant,low,50,50,100.0,0,0.0,0,0.0,0,0.0,no_failure_detected,current correction capability sufficient for this group
+individual_adaptive_setting,waviness_dominant,medium,50,46,92.0,0,0.0,4,8.0,0,0.0,parallelism_error,add stronger angular or multi-point locator correction capability

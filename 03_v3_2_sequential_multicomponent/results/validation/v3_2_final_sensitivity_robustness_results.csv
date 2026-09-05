@@ -1,0 +1,9 @@
+metric,value
+robustness_seeds,3.0
+nominal_assemblies_total,450.0
+minimum_seed_win_vs_zero_percent,98.66666666666667
+minimum_seed_mean_improvement_percent,69.2636895909133
+minimum_deviation_sensitivity_win_percent,99.11111111111111
+capability_60_percent_win_vs_zero,98.66666666666667
+capability_60_percent_mean_improvement,69.54918215101111
+minimum_quality_weight_win_percent,98.0

@@ -1,0 +1,6 @@
+method,mean_final_quality,improvement_vs_zero_percent,ml_required,analytical_inverse_or_basis_required,simulator_or_surrogate_evaluations_per_decision,computational_effort,main_strength,main_limitation,online_suitability
+Zero correction,0.9504759382078684,0.0,No,No,0,Minimal,Reference baseline,No adaptive correction,"Very high computationally, but no correction value"
+Deterministic LSQ,0.2201967977540369,76.83299609149284,No,Yes,1,Very low,Transparent and efficient when correction basis is known,Requires an explicit analytical correction structure,Excellent for basis-aligned current model
+Structured-20,0.2385865711661446,74.89819977810255,Yes,No exact inverse,20,Low,Flexible surrogate-based candidate ranking,Depends on trained surrogate and current feature representation,High
+Selective BO,0.2376584851737425,74.99584412185646,Yes,No exact inverse,20 only when triggered,Moderate,Optional refinement for ambiguous surrogate decisions,Negligible mean gain over Structured-20 in validation,Moderate to high when used selectively
+Direct simulator numerical reference,0.1701710463976552,82.096227841547,No,"No, but repeated simulator access required",784.2,Very high,Best observed greedy correction quality,Hundreds of simulator evaluations per decision,Low for real-time use in current implementation

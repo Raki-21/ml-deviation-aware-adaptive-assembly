@@ -1,0 +1,16 @@
+metric,value
+risk_threshold,0.6279755522255522
+capability_warning_threshold,0.9
+total_decisions,1500.0
+routine_decisions,1050.0
+review_advised_decisions,450.0
+review_advised_percent,30.0
+capability_warning_decisions,0.0
+capability_warning_percent,0.0
+review_needs_attention_percent,88.22222222222223
+routine_needs_attention_percent,21.047619047619047
+attention_enrichment_review_vs_routine,4.191553544494721
+review_not_improved_percent,9.777777777777779
+routine_not_improved_percent,3.5238095238095237
+review_high_residual_percent,70.0
+routine_high_residual_percent,5.714285714285714

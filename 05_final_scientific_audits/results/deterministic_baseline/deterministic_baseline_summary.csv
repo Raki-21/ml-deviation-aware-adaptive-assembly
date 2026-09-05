@@ -1,0 +1,16 @@
+metric,value
+assemblies,300.0
+component_decisions,1500.0
+zero_mean_final_quality,0.9504759382078684
+deterministic_mean_final_quality,0.22019679775403692
+structured_mean_final_quality,0.23858657116614462
+deterministic_improvement_percent,76.83299609149284
+structured_improvement_percent,74.89819977810254
+deterministic_win_vs_zero_percent,98.66666666666667
+structured_win_vs_deterministic_percent,42.0
+deterministic_win_vs_structured_percent,57.99999999999999
+absolute_quality_gap_det_minus_structured,-0.018389773412107707
+relative_structured_advantage_percent,-8.351517188115222
+mean_deterministic_utilization,0.15352556706162807
+deterministic_near_90pct_capability_percent,0.0
+least_squares_success_percent,100.0

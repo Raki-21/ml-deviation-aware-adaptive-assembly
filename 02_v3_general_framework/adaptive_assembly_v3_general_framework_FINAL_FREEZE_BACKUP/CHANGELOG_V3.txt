@@ -1,0 +1,18 @@
+Version 3 General Framework Upgrade
+
+Starting point:
+Copied from working Version 2 prototype.
+
+Planned upgrades:
+1. Add batch_id, part_id, scenario_type, severity_level, and disturbance_flag.
+2. Add scenario-based deviation generation.
+3. Add batch-level dataset generation.
+4. Add adaptation-level comparison:
+   - nominal universal baseline
+   - global-best fixed baseline
+   - batch-adaptive setting
+   - individual part-specific recommendation
+5. Add model screening.
+6. Add robustness tests for severity, noise, and disturbed batches.
+7. Add explainability and stronger plots.
+8. Update report methodology and results.

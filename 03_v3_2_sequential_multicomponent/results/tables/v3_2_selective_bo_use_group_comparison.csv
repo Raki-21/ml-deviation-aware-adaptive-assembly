@@ -1,0 +1,3 @@
+group,n_assemblies,mean_bo_quality_benefit,median_bo_quality_benefit,bo_better_rate_percent,structured_better_rate_percent,mean_prediction_abs_error,mean_regret,mean_utilization
+no_bo_refinement_selected,80,0.0,0.0,0.0,0.0,0.011421595880930831,0.006988730971831466,0.10955213779829967
+bo_refinement_selected_at_least_once,20,-0.002480967587721658,0.007764167456619911,55.00000000000001,45.0,0.026360230129551743,0.028213180905117624,0.14230330240272568

@@ -1,0 +1,13 @@
+Metric,Value
+Independent assemblies,300.0
+Sequence length,10.0
+LSQ mean quality,0.4517495484547423
+Locked hybrid mean quality,0.3888392976994758
+Mean hybrid - LSQ,-0.0629102507552665
+Median hybrid - LSQ,-0.056103561190541
+Relative hybrid improvement (%),13.925913367364233
+Hybrid beats LSQ (%),94.66666666666669
+Bootstrap 95% CI lower,-0.0681500842260165
+Bootstrap 95% CI upper,-0.0577233923752298
+Wilcoxon p-value,5.6242071159839475e-49
+Paired standardized effect,-1.3598862531794562

@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+*.zip
+*.tar
+*.tar.gz
+*.7z
+documentation_backup_before_submission_cleanup/
+**/freeze/
+*.tmp
+*.bak

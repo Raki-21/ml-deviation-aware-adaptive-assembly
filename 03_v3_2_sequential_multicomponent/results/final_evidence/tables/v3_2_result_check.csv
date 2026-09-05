@@ -1,0 +1,40 @@
+check,status,observed,expected
+File exists: data/validation/v3_2_final_controller_validation_assembly_results.csv,PASS,True,True
+File exists: data/validation/v3_2_final_controller_validation_component_results.csv,PASS,True,True
+File exists: results/validation/v3_2_final_controller_validation_summary.csv,PASS,True,True
+File exists: results/validation/v3_2_final_robustness_by_seed.csv,PASS,True,True
+File exists: results/validation/v3_2_final_deviation_magnitude_sensitivity.csv,PASS,True,True
+File exists: results/validation/v3_2_final_correction_capability_sensitivity.csv,PASS,True,True
+File exists: results/validation/v3_2_final_quality_weight_sensitivity.csv,PASS,True,True
+File exists: data/validation/v3_2_independent_validation_assembly_dataset.csv,PASS,True,True
+Independent assembly count,PASS,300,300
+Sequential decision count,PASS,1500,1500
+Unique assembly IDs,PASS,300,300
+Five decisions per assembly,PASS,"(5, 5)","(5, 5)"
+Validation/result assembly IDs match,PASS,0,0
+Critical assembly values complete,PASS,0,0
+Critical component values complete,PASS,0,0
+Zero mean matches summary,PASS,0.9504759382078682,0.9504759382078684
+Structured mean matches summary,PASS,0.23858657116614462,0.2385865711661446
+Selective mean matches summary,PASS,0.23765848517374252,0.2376584851737425
+Structured win rate matches summary,PASS,99.33333333333333,99.33333333333331
+BO trigger rate matches summary,PASS,26.13333333333333,26.13333333333333
+Mean utilization matches summary,PASS,0.11469840906414307,0.1146984090641431
+Near-limit rate matches summary,PASS,0.0,0.0
+Exact-best rate matches summary,PASS,86.26666666666667,86.26666666666667
+Top-3 rate matches summary,PASS,99.46666666666667,99.46666666666668
+Structured mean better than Zero,PASS,0.23858657116614462,< 0.9504759382078682
+Selective mean better than Zero,PASS,0.23765848517374252,< 0.9504759382078682
+Structured assembly win rate above 90%,PASS,99.33333333333333,>= 90%
+Capability utilization is non-negative,PASS,0.0,>= 0
+Capability utilization does not exceed 1,PASS,0.6146318040766496,<= 1
+Three robustness seeds available,PASS,3,3
+Minimum multi-seed win rate >= 90%,PASS,98.66666666666669,>= 90%
+Minimum deviation-magnitude win rate >= 90%,PASS,99.11111111111111,>= 90%
+Minimum quality-weight win rate >= 90%,PASS,98.0,>= 90%
+60% capability result exists,PASS,True,True
+60% capability win rate >= 90%,PASS,98.66666666666669,>= 90%
+Independent validation IDs overlap RF training,PASS,0,0
+Independent validation IDs overlap RF holdout,PASS,0,0
+Evidence figure count,PASS,10,>= 10
+Evidence tables available,PASS,14,>= 10

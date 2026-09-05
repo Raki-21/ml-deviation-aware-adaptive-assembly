@@ -1,0 +1,61 @@
+check,passed,detail
+unseen_batch_file_exists,True,D:\PROJECT THESIS\FAU_Thesis_Adaptive_Assembly\05_final_scientific_audits\results\unseen_batch_validation\unseen_batch_summary.csv
+deterministic_file_exists,True,D:\PROJECT THESIS\FAU_Thesis_Adaptive_Assembly\05_final_scientific_audits\results\deterministic_baseline\deterministic_baseline_summary.csv
+achievable_file_exists,True,D:\PROJECT THESIS\FAU_Thesis_Adaptive_Assembly\05_final_scientific_audits\results\achievable_correction\achievable_correction_summary.csv
+observable_file_exists,True,D:\PROJECT THESIS\FAU_Thesis_Adaptive_Assembly\05_final_scientific_audits\results\observable_feature_audit\observable_feature_summary.csv
+lookahead_file_exists,True,D:\PROJECT THESIS\FAU_Thesis_Adaptive_Assembly\05_final_scientific_audits\results\two_step_lookahead\two_step_summary.csv
+ml_value_file_exists,True,D:\PROJECT THESIS\FAU_Thesis_Adaptive_Assembly\05_final_scientific_audits\results\ml_value_regions\ml_value_summary.csv
+basis_residual_file_exists,True,D:\PROJECT THESIS\FAU_Thesis_Adaptive_Assembly\05_final_scientific_audits\results\correction_basis_residual\basis_residual_summary.csv
+basis_quartile_file_exists,True,D:\PROJECT THESIS\FAU_Thesis_Adaptive_Assembly\05_final_scientific_audits\results\correction_basis_residual\basis_residual_by_quartile.csv
+method_tradeoff_file_exists,True,D:\PROJECT THESIS\FAU_Thesis_Adaptive_Assembly\05_final_scientific_audits\results\method_tradeoffs\method_tradeoff_summary.csv
+method_tradeoff_table_file_exists,True,D:\PROJECT THESIS\FAU_Thesis_Adaptive_Assembly\05_final_scientific_audits\results\method_tradeoffs\method_tradeoff_table.csv
+audit1_balanced_accuracy_valid,True,0.799776544922176
+audit1_recall_valid,True,0.7265372168284789
+audit1_generalization_meaningful,True,0.799776544922176
+audit2_zero_matches_reference,True,0.9504759382078684
+audit2_structured_matches_reference,True,0.2385865711661446
+audit2_lsq_improves_zero,True,0.2201967977540369
+audit2_structured_improves_zero,True,0.2385865711661446
+audit3_zero_consistent_with_audit2,True,0.9504759382078684 vs 0.9504759382078684
+audit3_lsq_consistent_with_audit2,True,0.2201967977540369 vs 0.2201967977540369
+audit3_structured_consistent_with_audit2,True,0.2385865711661446 vs 0.2385865711661446
+audit3_direct_better_than_structured,True,0.1701710463976552 < 0.2385865711661446
+audit3_direct_better_than_lsq,True,0.1701710463976552 < 0.2201967977540369
+audit3_structured_capture_valid,True,91.23220609193238
+audit3_lsq_capture_valid,True,93.58894813022025
+audit3_structured_captures_majority,True,91.23220609193238
+audit3_lsq_captures_majority,True,93.58894813022025
+audit4_all_feature_sets_present,True,"{'OBSERVABLE', 'PRIVILEGED', 'FULL'}"
+audit4_observable_meaningful,True,0.7658631256848739
+audit4_full_best,True,"FULL=0.8391735214483614, OBS=0.7658631256848739, PRIV=0.711516734639485"
+audit4_observable_beats_privileged,True,"OBS=0.7658631256848739, PRIV=0.711516734639485"
+audit5_sample_size,True,30
+audit5_quality_values_positive,True,"0.1631864478541975, 0.1637660837976542"
+audit5_no_large_lookahead_gain,True,-0.3551985787291849
+audit5_utilization_valid,True,"0.1654385641708279, 0.6480225174026052"
+audit5_greedy_not_materially_worse,True,"greedy=0.1631864478541975, lookahead=0.1637660837976542"
+audit6_sample_size,True,300
+audit6_win_rates_valid,True,"Structured=42.0, LSQ=58.0"
+audit6_mean_advantage_finite,True,-0.0183897734121077
+audit6_bootstrap_interval_ordered,True,"[-0.0255329672892083, -0.0114280474908056]"
+audit6_lsq_mean_advantage_supported,True,"mean=-0.0183897734121077, CI=[-0.0255329672892083, -0.0114280474908056]"
+audit6_consistent_with_deterministic_quality,True,0.2201967977540369 vs 0.2201967977540369
+audit7_sample_size,True,"assemblies=300, decisions=1500"
+audit7_residual_values_valid,True,"bounded=0.4963073028744367, unbounded=0.4963073028744367"
+audit7_explained_energy_valid,True,"bounded=0.6590097847192696, unbounded=0.6590097847192696"
+audit7_substantial_basis_alignment,True,0.6590097847192696
+audit7_capability_penalty_small,True,0.0
+audit7_replay_matches_frozen_baseline,True,9.714451465470121e-17
+audit7_ml_value_relationship_positive,True,0.2659248055796024
+audit7_quartile_columns_present,True,"['basis_residual_quartile', 'decisions', 'mean_bounded_residual_ratio', 'mean_unbounded_residual_ratio', 'mean_bounded_explained_energy', 'mean_capability_penalty', 'mean_deterministic_quality', 'mean_structured_quality', 'structured_win_percent', 'mean_structured_advantage', 'mean_deterministic_utilization']"
+audit7_structured_more_competitive_in_q4,True,"Q1=21.866666666666667, Q4=60.53333333333333"
+audit7_q4_structured_majority,True,60.53333333333333
+audit7_q4_mean_advantage_nonnegative,True,0.0014061645010522
+audit8_quality_values_consistent,True,"zero=0.9504759382078684, lsq=0.2201967977540369, struct=0.2385865711661446, direct=0.1701710463976552"
+audit8_quality_order_valid,True,"direct=0.1701710463976552, lsq=0.2201967977540369, struct=0.2385865711661446, zero=0.9504759382078684"
+audit8_selective_close_to_structured,True,"selective=0.2376584851737425, structured=0.2385865711661446"
+audit8_direct_cost_high,True,784.2
+audit8_all_methods_present,True,"{'Zero correction', 'Selective BO', 'Structured-20', 'Deterministic LSQ', 'Direct simulator numerical reference'}"
+crossaudit_zero_consistency,True,"det=0.9504759382078684, ach=0.9504759382078684, trade=0.9504759382078684"
+crossaudit_lsq_consistency,True,"det=0.2201967977540369, ach=0.2201967977540369, trade=0.2201967977540369"
+crossaudit_structured_consistency,True,"det=0.2385865711661446, ach=0.2385865711661446, trade=0.2385865711661446"

@@ -1,0 +1,56 @@
+check,status,observed,expected
+required_file_exists:v33_hybrid_architecture_lock.txt,PASS,True,True
+required_file_exists:v33_residual_learning_full_train.csv,PASS,True,True
+required_file_exists:v33_residual_learning_full_development.csv,PASS,True,True
+required_file_exists:v33_residual_learning_full_observable_features.txt,PASS,True,True
+required_file_exists:v33_residual_rf_full.joblib,PASS,True,True
+required_file_exists:v33_final_independent_assembly_results.csv,PASS,True,True
+required_file_exists:v33_final_independent_component_results.csv,PASS,True,True
+required_file_exists:v33_final_independent_statistics.csv,PASS,True,True
+required_file_exists:v33_final_independent_stage_statistics.csv,PASS,True,True
+required_file_exists:v33_final_independent_utilization_statistics.csv,PASS,True,True
+required_file_exists:v33_regime_robustness_summary.csv,PASS,True,True
+required_file_exists:v33_sequence_length_scaling_summary.csv,PASS,True,True
+required_file_exists:v33_sequence_length_scaling_stage_results.csv,PASS,True,True
+required_file_exists:v33_direct_reference_stability_summary.csv,PASS,True,True
+required_file_exists:v33_direct_reference_budget_comparisons.csv,PASS,True,True
+architecture_lock_is_all_residuals,PASS,LSQ_PLUS_ML_ALL,LSQ_PLUS_ML_ALL
+architecture_locked_before_final_validation_statement,PASS,statement found,statement found
+full_training_rows,PASS,3000,3000
+full_development_rows,PASS,600,600
+train_development_assembly_overlap,PASS,0,0
+observable_feature_count,PASS,26,26
+no_known_generator_privileged_features,PASS,[],[]
+model_feature_count,PASS,26,26
+model_output_count,PASS,3,3
+final_independent_assembly_count,PASS,300,300
+final_sequence_length,PASS,10,10
+final_method_present:LSQ,PASS,True,True
+final_method_present:LSQ_PLUS_ML_ALL,PASS,True,True
+final_method_present:DIRECT_NONLINEAR_REFERENCE,PASS,True,True
+final_locked_hybrid_mean_better_than_lsq,PASS,"LSQ=0.451750, Hybrid=0.388839",Hybrid < LSQ
+final_relative_improvement_positive,PASS,13.9259%,> 0%
+final_stat_metric_present:mean_lsq_quality,PASS,True,True
+final_stat_metric_present:mean_locked_hybrid_quality,PASS,True,True
+final_stat_metric_present:paired_bootstrap_95_ci_lower,PASS,True,True
+final_stat_metric_present:paired_bootstrap_95_ci_upper,PASS,True,True
+final_stat_metric_present:wilcoxon_p_value,PASS,True,True
+final_stat_metric_present:hybrid_beats_lsq_percent,PASS,True,True
+final_stat_metric_present:relative_hybrid_improvement_percent,PASS,True,True
+final_bootstrap_ci_entirely_below_zero,PASS,"[-0.068150, -0.057723]",upper < 0
+final_wilcoxon_significant,PASS,5.6242071159839475e-49,< 0.05
+final_hybrid_win_rate_above_50_percent,PASS,94.67%,> 50%
+reported_relative_improvement_matches_recomputed,PASS,"reported=13.9259%, recomputed=13.9259%",difference <= 0.01 percentage point
+reported_lsq_mean_matches_assembly_results,PASS,0.4517495484547423,0.4517495484547423
+reported_hybrid_mean_matches_assembly_results,PASS,0.3888392976994758,0.3888392976994757
+final_stage_indices_complete,PASS,"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]","[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+hybrid_mean_better_at_all_10_stages,PASS,True,True
+robustness_configuration_count,PASS,9,9
+hybrid_positive_in_all_tested_robustness_regimes,PASS,True,True
+hybrid_mean_better_than_lsq_in_all_regimes,PASS,True,True
+scaling_sequence_lengths,PASS,"[5, 10]","[5, 10]"
+hybrid_positive_at_k5_and_k10,PASS,True,True
+k5_k10_lsq_prefix_consistency,PASS,0.0,<= 1e-12
+k5_k10_hybrid_prefix_consistency,PASS,4.385380947269368e-15,<= 1e-12
+direct_reference_budgets_present,PASS,"['HIGH_30x10', 'LOW_8x5', 'MEDIUM_18x7']","['HIGH_30x10', 'LOW_8x5', 'MEDIUM_18x7']"
+direct_reference_medium_high_stability_below_1_percent,PASS,0.4285%,< 1%

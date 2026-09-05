@@ -1,0 +1,14 @@
+setting,value
+dataset_role,FINAL_INDEPENDENT_VALIDATION_ONLY
+validation_seed,20260826
+n_batch_conditions,6
+batches_per_condition,5
+assemblies_per_batch,10
+total_batches,30
+total_assemblies,300
+components_per_assembly,5
+total_component_decisions,1500
+assembly_id_start,100001
+used_for_training,False
+used_for_model_selection,False
+used_for_trigger_calibration,False

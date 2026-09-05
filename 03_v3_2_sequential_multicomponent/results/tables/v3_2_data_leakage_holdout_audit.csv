@@ -1,0 +1,10 @@
+metric,value
+rf_training_assemblies,800.0
+rf_holdout_assemblies,200.0
+rf_train_test_overlap,0.0
+pilot_assemblies,100.0
+pilot_seen_during_rf_training,83.0
+pilot_seen_during_rf_training_percent,83.0
+pilot_true_holdout_assemblies,17.0
+pilot_true_holdout_percent,17.0
+pilot_structured_id_mismatch,0.0

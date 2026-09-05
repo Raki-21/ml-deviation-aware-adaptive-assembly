@@ -1,0 +1,18 @@
+Version 2 Locked Baseline
+
+This folder contains the current working prototype of the ML-Based Deviation-Aware Adaptive Assembly Parameter Recommendation System.
+
+Implemented workflow:
+- synthetic deviation profile generation
+- assembly correction model
+- quality metric calculation
+- dataset generation
+- Linear Regression baseline
+- Random Forest surrogate model
+- Bayesian optimization
+- fixed baseline comparison
+- random search comparison
+- robustness evaluation on unseen deviation cases
+
+This version is locked and must not be edited.
+All future upgrades will be implemented in Version 3.

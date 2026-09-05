@@ -1,0 +1,17 @@
+metric,value
+oof_balanced_accuracy,0.8077790986944939
+oof_recall_attention,0.7572815533980582
+oof_precision_attention,0.7892074198988196
+oof_specificity_normal,0.8582766439909297
+oof_f1_attention,0.772914946325351
+oof_roc_auc,0.888094504252618
+oof_pr_auc,0.8705648060973863
+selected_workload_percent,30.0
+selected_probability_threshold,0.6279755522255522
+selected_attention_capture_percent,64.23948220064725
+selected_difficult_capture_percent,65.73556797020484
+selected_not_improved_capture_percent,54.32098765432099
+selected_high_regret_capture_percent,44.0
+selected_high_residual_capture_percent,84.0
+selected_attention_precision_percent,88.22222222222223
+selected_attention_lift,2.1413160733549086

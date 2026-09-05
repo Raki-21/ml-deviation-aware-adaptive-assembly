@@ -1,0 +1,9 @@
+scenario_type,total_cases,pass_recommended_count,pass_recommended_percent,manual_review_count,manual_review_percent,rework_required_count,rework_required_percent,out_of_correction_range_count,out_of_correction_range_percent,difficult_case_percent,dominant_failure_metric,suggested_future_capability
+fixture_drift,150,135,90.0,0,0.0,15,10.0,0,0.0,10.0,parallelism_error,add stronger angular or multi-point locator correction capability
+disturbed_batch,50,47,94.0,0,0.0,3,6.0,0,0.0,6.0,parallelism_error,add stronger angular or multi-point locator correction capability
+waviness_dominant,150,142,94.66666666666667,0,0.0,8,5.333333333333333,0,0.0,5.333333333333329,parallelism_error,add stronger angular or multi-point locator correction capability
+mixed,150,143,95.33333333333333,0,0.0,7,4.666666666666667,0,0.0,4.666666666666671,parallelism_error,add stronger angular or multi-point locator correction capability
+tilt_dominant,150,143,95.33333333333333,0,0.0,7,4.666666666666667,0,0.0,4.666666666666671,parallelism_error,add stronger angular or multi-point locator correction capability
+bend_dominant,150,146,97.33333333333333,0,0.0,4,2.6666666666666665,0,0.0,2.6666666666666714,parallelism_error,add stronger angular or multi-point locator correction capability
+twist_dominant,150,146,97.33333333333333,0,0.0,4,2.6666666666666665,0,0.0,2.6666666666666714,parallelism_error,add stronger angular or multi-point locator correction capability
+offset_dominant,150,148,98.66666666666667,0,0.0,2,1.3333333333333333,0,0.0,1.3333333333333286,parallelism_error,add stronger angular or multi-point locator correction capability

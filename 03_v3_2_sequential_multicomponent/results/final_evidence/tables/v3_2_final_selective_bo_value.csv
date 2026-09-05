@@ -1,0 +1,10 @@
+metric,value
+bo_trigger_rate_percent,26.13333333333333
+assemblies_with_bo_percent,67.66666666666666
+mean_selective_minus_structured,-0.000928085992402098
+median_selective_minus_structured,0.0
+ci95_selective_minus_structured_low,-0.004494318464095427
+ci95_selective_minus_structured_high,0.002638146479291231
+selective_better_percent,12.333333333333334
+structured_better_percent,10.666666666666668
+tie_percent,77.0

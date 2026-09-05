@@ -1,0 +1,5 @@
+strategy,total_difficult_cases,fails_mean_gap_cases,fails_max_gap_cases,fails_parallelism_error_cases,fails_mean_gap_percent,fails_max_gap_percent,fails_parallelism_error_percent
+batch_adaptive_setting,480,280,205,448,58.333333333333336,42.70833333333333,93.33333333333333
+global_best_fixed_setting,515,311,229,478,60.38834951456311,44.46601941747573,92.81553398058252
+individual_adaptive_setting,50,0,0,50,0.0,0.0,100.0
+nominal_universal_baseline,515,311,229,478,60.38834951456311,44.46601941747573,92.81553398058252

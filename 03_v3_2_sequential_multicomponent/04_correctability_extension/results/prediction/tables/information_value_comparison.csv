@@ -1,0 +1,5 @@
+comparison,balanced_accuracy_gain
+State vs Stage,0.05633583714831769
+Combined vs Stage,0.20023112138317256
+Combined vs Component/Process,0.07642561891639621
+Combined vs State,0.14389528423485487

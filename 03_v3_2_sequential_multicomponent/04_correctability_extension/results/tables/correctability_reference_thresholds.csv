@@ -1,0 +1,12 @@
+descriptor,value
+improvement_percent_q25,53.06014683908887
+improvement_percent_q50,71.57746816657021
+improvement_percent_q75,83.03406657667773
+corrected_quality_q25,0.08387201815245204
+corrected_quality_q50,0.15450576712108324
+corrected_quality_q75,0.23749950894079963
+utilization_q50,0.09144709658846005
+utilization_q75,0.1849304780119272
+regret_q75,0.0
+regret_q90,0.015669885349849456
+assembly_corrected_quality_q75,0.2989000104283111

@@ -1,0 +1,11 @@
+metric,value
+n_assemblies,100.0
+bo_better_assemblies,11.0
+structured_better_assemblies,9.0
+tied_assemblies,80.0
+assemblies_where_bo_refinement_selected,20.0
+bo_refinement_decision_rate_percent,4.8
+mean_bo_quality_benefit,-0.0004961935175443319
+median_bo_quality_benefit,0.0
+p10_bo_quality_benefit,0.0
+p90_bo_quality_benefit,0.0066613375255873564

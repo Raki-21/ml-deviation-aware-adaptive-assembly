@@ -1,0 +1,6 @@
+method,mean_final_quality,improvement_vs_zero_percent,simulator_or_surrogate_evaluations_per_decision
+Zero correction,0.9504759382078684,0.0,0
+Deterministic LSQ,0.2201967977540369,76.83299609149284,1
+Structured-20,0.2385865711661446,74.89819977810255,20
+Selective BO,0.2376584851737425,74.99584412185646,20 only when triggered
+Direct simulator numerical reference,0.1701710463976552,82.096227841547,784.2

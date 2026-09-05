@@ -1,0 +1,17 @@
+evidence_item,value
+Independent validation assemblies,300.0
+Independent sequential decisions,1500.0
+Zero mean final quality,0.9504759382078682
+Structured-20 mean final quality,0.23858657116614462
+Selective BO mean final quality,0.23765848517374252
+Structured-20 mean improvement vs zero (%),74.89819977810255
+Structured-20 assembly win rate vs zero (%),99.33333333333333
+Structured-20 exact-best candidate rate (%),86.26666666666667
+Structured-20 top-3 candidate rate (%),99.46666666666667
+Mean Structured-20 capability utilization,0.11469840906414307
+Structured-20 >=90% capability rate (%),0.0
+Selective BO trigger rate (%),26.13333333333333
+Minimum multi-seed win rate (%),98.66666666666669
+Minimum deviation-magnitude win rate (%),99.11111111111111
+60% correction capability win rate (%),98.66666666666669
+Minimum quality-weight win rate (%),98.0
