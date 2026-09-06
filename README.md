@@ -27,26 +27,20 @@ The current implementation is a controlled computational feasibility study
 based on synthetic one-dimensional geometric profiles. It is not an
 industrially validated production system.
 
-
 ## Final Validated Version
 
-The final validated technical baseline is Version 3.2.
+The final validated technical baseline is Version 3.3.
 
 The main implementation is located in:
 
-`03_v3_2_sequential_multicomponent`
+`06_v3_3_nonlinear_hybrid_upgrade`
 
-
-The sequential assembly state is conceptually represented as:
-
-`S_k = S_(k-1) + D_k + F_(b,k) + C_k`
-
-where:
-
-- `S_(k-1)` = accumulated assembly state before the current operation
-- `D_k` = incoming component deviation
-- `F_(b,k)` = batch/process disturbance
-- `C_k` = applied assembly correction
+Version 3.2 remains the earlier validated baseline that V3.3 was built on
+top of, and its results and audits are still complete and correct on their
+own terms (see `03_v3_2_sequential_multicomponent`). V3.3 does not
+overwrite or invalidate V3.2 -- it extends it with a controlled nonlinear
+model-mismatch study and a residual-learning hybrid controller, described
+further below in this README.
 
 
 ## Assembly Corrections
@@ -500,7 +494,7 @@ frozen V3.2 package at that stage of the project.
 
 A later V3.3 extension was subsequently developed in a separate folder:
 
- 6_v3_3_nonlinear_hybrid_upgrade
+06_v3_3_nonlinear_hybrid_upgrade
 
 V3.3 does not overwrite or invalidate V3.2. Instead, it addresses a central
 limitation identified during the V3.2 scientific audits: deterministic
@@ -801,11 +795,11 @@ Scientific consistency:
 
 The authoritative V3.3 result summary is stored in:
 
- 6_v3_3_nonlinear_hybrid_upgrade/V3_3_FINAL_RESULT_MAP.md
+06_v3_3_nonlinear_hybrid_upgrade/V3_3_FINAL_RESULT_MAP.md
 
 The corresponding scripts, data, trained model, and results are stored in:
 
- 6_v3_3_nonlinear_hybrid_upgrade
+06_v3_3_nonlinear_hybrid_upgrade
 
 No additional controller tuning, architecture reselection, or model retraining
 is required for the completed V3.3 technical package before thesis-report
